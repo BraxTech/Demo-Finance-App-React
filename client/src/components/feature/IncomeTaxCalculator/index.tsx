@@ -25,7 +25,7 @@ const IncomeTaxCalculator = () => {
 			<div>
 				<hr className='my-[10px] ' />
 				<div className='gap-[40px] flex '>
-					<button className='bg-orange-600 h-[60px] w-[300px] rounded-3xl mx-[auto] my-[10px] text-[25px]'>
+					<button className='bg-orange-600 h-[60px] w-[250px] rounded-3xl mx-[auto] my-[10px] text-[25px]'>
 						Calculate
 					</button>
 				</div>

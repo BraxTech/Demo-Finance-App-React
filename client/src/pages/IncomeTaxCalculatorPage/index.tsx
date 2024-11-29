@@ -9,8 +9,10 @@ const IncomeTaxCalculatorPage = () => {
 	return (
 		<div className='max-w-[1280px]  mt-[30px] m-[auto] flex justify-between'>
 			<div className='gap-[25px] flex flex-col'>
-				<SalaryRate />
-				<SalaryBreakdown />
+				<div>
+					<SalaryRate />
+					<SalaryBreakdown />
+				</div>
 				<NetPay />
 			</div>
 			<div className='flex flex-col  gap-[25px]'>
