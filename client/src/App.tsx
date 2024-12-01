@@ -1,16 +1,16 @@
 import React from 'react';
 import Navbar from '@components/layout/Navbar';
-import SalaryRate from '@components/feature/SalaryRate';
-import IncomeTaxCalculator from '@components/feature/IncomeTaxCalculator';
 import './App.css';
-import SalaryBreakdown from '@components/feature/SalaryBreakdown';
-import NetPay from '@components/feature/NetPay';
 import IncomeTaxCalculatorPage from '@pages/IncomeTaxCalculatorPage';
+import BudgetCalculatorPage from '@pages/BudgetCalculatorPage';
+import PageWrapper from '@components/layout/PageWrapper';
 function App() {
 	return (
 		<div className='App'>
 			<Navbar />
-			<IncomeTaxCalculatorPage />
+			<PageWrapper>
+			<BudgetCalculatorPage />
+			</PageWrapper>
 		</div>
 	);
 }
