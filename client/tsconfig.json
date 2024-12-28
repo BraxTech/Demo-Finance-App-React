@@ -1,14 +1,18 @@
 {
 	"compilerOptions": {
+		"target": "esnext",
 		"module": "esnext",
-		"jsx": "react",
+		"moduleResolution": "bundler",
+		"jsx": "react-jsx",
+		"lib": ["DOM", "DOM.Iterable", "ESNext"],
 		"allowSyntheticDefaultImports": true,
-		"moduleResolution": "node",
 		"baseUrl": "src",
 		"paths": {
 			"@app/*": ["app/*"],
 			"@components/*": ["components/*"],
 			"@pages/*": ["pages/*"]
-		}
+		},
+		"skipLibCheck": true,
+		"types": ["@types/node", "@types/react", "@types/react-dom"]
 	}
 }
