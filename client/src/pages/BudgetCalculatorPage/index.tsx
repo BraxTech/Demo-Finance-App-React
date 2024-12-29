@@ -9,7 +9,7 @@ const Needs = [
 	'Transportation',
 	'Health Care',
 	'Student Loans',
-	'Credit Card Payemnts',
+	'Credit Card Payments',
 ];
 const Wants = ['Dining Out', 'Hobbies', 'Splurges', 'Entertainment'];
 const Savings = ['Emergency Fund', 'Investments', 'Retirement'];
