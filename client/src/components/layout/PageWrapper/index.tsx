@@ -1,14 +1,14 @@
-import React, { ReactNode } from 'react'
+import React, { ReactNode } from 'react';
 interface PageWrapperProps {
-    children: ReactNode;
+	children: ReactNode;
 }
 
-const PageWrapper = ({children}) => {
-  return (
-    <div className='max-w-[1280px]  mt-[30px] m-[auto] flex justify-between '>
-      {children}
-    </div>
-  )
-}
+const PageWrapper = ({ children }) => {
+	return (
+		<div className='max-w-[1280px]  mt-[30px] m-[auto] flex justify-between '>
+			{children}
+		</div>
+	);
+};
 
-export default PageWrapper
+export default PageWrapper;

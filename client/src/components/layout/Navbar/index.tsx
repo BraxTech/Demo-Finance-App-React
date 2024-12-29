@@ -3,10 +3,10 @@ import NavLink from '@components/common/NavLink';
 function Navbar() {
 	return (
 		<>
-			<div className='p-4 rounded-lg bg-[#F49D37] w-[100vw]  flex justify-between'>
+			<div className='p-4 rounded-lg bg-[#F49D37] w-full  flex justify-between'>
 				<p>Logo</p>
 
-				<div className='flex justify-between  w-[15%]'>
+				<div className='flex justify-between w-full'>
 					<ul className='flex gap-[30px] '>
 						<NavLink
 							name='Home'

@@ -1,0 +1,5 @@
+import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
+const NetPay = () => {
+    return (_jsxs("div", { className: 'md:w-[641px] bg-[white] rounded-lg w-full max-w-full', children: [_jsxs("div", { className: 'flex justify-between p-4 ', children: [_jsx("p", { className: 'md:text-[22px] font-semibold', children: "Total Tax" }), _jsx("p", { className: 'md:text-[22px] font-semibold', children: "$5.75" })] }), _jsxs("div", { className: 'flex justify-between p-4 ', children: [_jsx("p", { className: 'md:text-[22px] font-semibold text-orange-600', children: "Net Pay" }), _jsx("p", { className: 'md:text-[22px] font-semibold text-orange-600', children: "$20.69" })] }), _jsx("hr", { className: 'mx-6 my-2' }), _jsxs("div", { className: 'flex justify-between px-6 py-3', children: [_jsx("p", { children: "Marginal Tax Rate" }), _jsx("p", { children: "36.0%" })] }), _jsxs("div", { className: 'flex justify-between px-6 py-3', children: [_jsx("p", { children: "Marginal Tax Rate" }), _jsx("p", { children: "36.0%" })] })] }));
+};
+export default NetPay;
